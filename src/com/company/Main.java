@@ -1,35 +1,32 @@
-package com.company;
+packag  com   mpany
 
+imp      va.i       redRea er;
+import jav   o.Inpu Str amR
+imp  t java.util    dom;
+import    a.ut  .Arra     ;
 
-import com.sun.deploy.net.MessageHeader;
+pub  c cla    ain {
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.Random;
-import java.util.ArrayList;
+    pu lic s       oid main(String[] args) {
 
-public class Main {
-
-    public static void main(String[] args) {
-
-        ticketGenerator();
+        tic  tGene ator()
 
     }
 
-    public static void ticketGenerator() {
+    pu li   tat c voi      etGenerator()
 
-        ArrayList<Integer> ticketNumbers = new ArrayList<>();
+        Ar ay  st<I teger> ticke   mbers = n w Ar   L st<  );
 
-        for (int i = 1; i <= 500; i++) {
+        for (int i      i <= 5    i+ ) {
 
-            ticketNumbers.add(i);
+            ticketNumb     dd(i);
 
-        }
 
-        Random ticketSelector = new Random();
-        int ticketSelected = ticketSelector.nextInt(500);
-        System.out.println(ticketSelected);
-        ticketNumbers.get(ticketSelected);
 
-    }
+        Ran    tick tSe  ctor =  ew Ran om()
+        in     ketSelected = ticketSelector.nextInt(500);
+        Syste         ntln(tic et   ected);
+        t cketN  bers.get(ticke    te
+
+
 }
